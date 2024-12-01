@@ -1,0 +1,9 @@
+- data_type: "android:sms:message"
+  attribute_mappings:
+    - name: "timestamp"
+      description: "Message Timestamp"
+    - name: "sender"
+      description: "Sender of the message"
+    - name: "message"
+      description: "Content of the SMS message"
+  place_holder_event: true
