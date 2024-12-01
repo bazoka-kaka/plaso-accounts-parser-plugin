@@ -1,0 +1,39 @@
+Timestamp: 2024-12-01 10:15:45
+Sender: +1234567890
+Message: Hello! Your verification code is 672845. Do not share this with anyone.
+
+Timestamp: 2024-12-01 10:20:15
+Sender: BankXYZ
+Message: Alert! Your account ending in 4567 was accessed at 10:15 AM. If this wasn't you, contact us immediately.
+
+Timestamp: 2024-12-01 10:25:30
+Sender: John Doe
+Message: Hey, are we still on for dinner tonight? Let me know.
+
+Timestamp: 2024-12-01 10:30:45
+Sender: +9876543210
+Message: Congratulations! You've won a $500 gift card. Reply with YES to claim your prize.
+
+Timestamp: 2024-12-01 10:35:20
+Sender: +85212345678
+Message: Your package has been shipped and will arrive on 2024-12-05. Track it here: http://tracking.link/12345.
+
+Timestamp: 2024-12-01 10:40:00
+Sender: StorePromo
+Message: Flash Sale! Get 50% off on all items for the next 24 hours. Visit us now!
+
+Timestamp: 2024-12-01 10:45:15
+Sender: +447890123456
+Message: Your Uber ride has been confirmed. Driver: Alex, Car: Toyota Corolla, ETA: 5 mins.
+
+Timestamp: 2024-12-01 10:50:30
+Sender: +912345678901
+Message: Your order #56789 has been successfully delivered. Thank you for shopping with us!
+
+Timestamp: 2024-12-01 10:55:45
+Sender: SchoolAdmin
+Message: Reminder: Parent-teacher meeting scheduled for 2024-12-03 at 3:00 PM.
+
+Timestamp: 2024-12-01 11:00:00
+Sender: +61412345678
+Message: Your payment of $120.00 to ABC Utilities has been processed. Transaction ID: 789456123.
