@@ -1,0 +1,8 @@
+type: 'conditional'
+data_type: 'android:accounts:entry'
+message:
+  - 'Account Name: {account_name}, Type: {account_type}, Last Authenticated: {last_authenticated_time}'
+short_message:
+  - 'Account: {account_name}, Type: {account_type}'
+short_source: 'ACCOUNTS'
+source: 'Android Accounts'
