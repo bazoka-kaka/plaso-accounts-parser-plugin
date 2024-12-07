@@ -1,0 +1,79 @@
+SQLite format 3@  M
+M.°
+Ÿ¶§–nm
+8
+ëKùùc
+˜
+>       d
+        ¶+=‚triggeraccountsDeleteVisibilityaccountsCREATE TRIGGER accountsDeleteVisibility DELETE ON accounts BEGIN   DELETE FROM visibility     WHERE accounts_id=OLD._id ; END"!!‚tablevisibilityvisibilityCREATE TABLE visibility ( accounts_id INTEGER NOT NULL, _package TEXT NOT NULL, value INTEGER, PRIMARY KEY(accounts_id,_package))3G!indexsqlite_autoindex_visibility_1visibilityX
++#qindextimestamp_indexdebug_tableCREATE INDEX timestamp_index ON debug_table (time)H##‚Wtabledebug_tabledebug_table
+CREATE TABLE debug_table ( _id INTEGER,action_type TEXT NOT NULL, time DATETIME,caller_uid INTEGER NOT NULL,table_name TEXT NOT NULL,primary_key INTEGER PRIMARY KEY))ktriggeraccountsDeleteaccountsCREATE TRIGGER accountsDelete DELETE ON accounts BEGIN   DELETE FROM grants     WHERE accounts_id=OLD._id ; ENDP
+++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)+++‚
+tableshared_accountsshared_accounts
+CREATE TABLE shared_accounts ( _id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, type TEXT NOT NULL, UNIQUE(name,type))=     Q+indexsqlite_autoindex_shared_accounts_1shared_accounts0‚;tablegrantsgrantsCREATE TABLE grants (  accounts_id INTEGER NOT NULL, auth_token_type STRING NOT NULL,  uid INTEGER NOT NULL,  UNIQUE (accounts_id,auth_token_type,uid))+?indexsqlite_autoindex_grants_1grants       S       tablemetametaCREATE TABLE meta ( key TEXT PRIMARY KEY NOT NULL, value TEXT)';indexsqlite_autoindex_meta_1metaU‚}tableaccountsaccountsCREATE TABLE accounts ( _id INTEGER PRIMARY KEY, name TEXT NOT NULL, type TEXT NOT NULL, previous_name TEXT, last_password_entry_time_millis_epoch INTEGER DEFAULT 0, UNIQUE(name,type))/Cindexsqlite_autoindex_accounts_1accountsW--ctableandroid_metadataandroid_metadataCREATE TABLE android_metadata (locale TEXT)
+÷÷en_US
+
+
+ÁÔ§yP$÷Æ¤tQ
+ñ
+Á.KDuocom.google.android.apps.tachyonpAGIz&
+%)+19195794674com.viber.voipp&q…Ç6STextNowcom.enflick.android.TextNow.accountp&^€*!-Skypecom.skype.raiderp•@¬.
+!=thisisdfircom.silentcircle.accountp|°Ë %WhatsAppcom.whatsappoó#»Ä/ITDfircom.twitter.android.auth.loginoòÓéð+9Messengercom.facebook.messengeroò¤v
+*=TikTokcom.zhiliaoapp.musicallyoò[¥'7imo HDcom.imo.android.imousoò“
+‹,ASignalorg.thoughtcrime.securesmsoò’»+9858233690org.telegram.messengeroò’2*5!thisisdfir@gmail.comcom.googleoñöš
+
+*R¸*(’¢ÿrMåq½Ý'KDuocom.google.android.apps.tachyon%)+19195794674com.viber.voip
+/STextNowcom.enflick.android.TextNow.account-Skypecom.skype.raider'!=thisisdfircom.silentcircle.account
+%WhatsAppcom.whatsapp(ITDfircom.twitter.android.auth.login$9Messengercom.facebook.messenger#=TikTokcom.zhiliaoapp.musically 7imo HDcom.imo.android.imous%ASignalorg.thoughtcrime.securesms$9858233690org.telegram.messenger"5!    thisisdfir@gmail.comcom.google
+-Ê¤g-ñ¶_
+÷
+Å
+™
+g
+3ôÃ‘i/(Mauth_uid_for_type:com.viber.voip102318mauth_uid_for_type:com.twitter.android.auth.login10245&Iauth_uid_for_type:com.whatsapp102440]auth_uid_for_type:com.facebook.messenger10241/[auth_uid_for_type:com.imo.android.imous10240=wauth_uid_for_type:com.enflick.android.TextNow.account102392aauth_uid_for_type:com.zhiliaoapp.musically102380
+]auth_uid_for_type:com.zhiliaoapp.account10238*Qauth_uid_for_type:com.skype.raider102360]auth_uid_for_type:org.telegram.messenger102344
+eauth_uid_for_type:org.thoughtcrime.securesms10233“22aauth_uid_for_type:com.silentcircle.account10224#9oauth_uid_for_type:com.google.android.apps.tachyon10209:qauth_uid_for_type:com.google.android.gm.legacyimap101878mauth_uid_for_type:com.google.android.gm.exchange10187;sauth_uid_for_type:com.google.android.gms.matchstick10141$Eauth_uid_for_type:com.google101414eauth_uid_for_type:com.google.android.gm.pop310187
+[j
+@ç¯ÕBÐw
+ˆ
+ÖjÄ
+©
+z
+ý***$Mauth_uid_for_type:com.viber.voip4mauth_uid_for_type:com.twitter.android.auth.login"Iauth_uid_for_type:com.whatsapp,]auth_uid_for_type:com.facebook.messenger+[auth_uid_for_type:com.imo.android.imous9wauth_uid_for_type:com.enflick.android.TextNow.account.aauth_uid_for_type:com.zhiliaoapp.musically,]auth_uid_for_type:com.zhiliaoapp.account
+&Qauth_uid_for_type:com.skype.raider,]auth_uid_for_type:org.telegram.messenger0eauth_uid_for_type:org.thoughtcrime.securesms
+·-.aauth_uid_for_type:com.silentcircle.account5oauth_uid_for_type:com.google.android.apps.tachyon6qauth_uid_for_type:com.google.android.gm.legacyimap4mauth_uid_for_type:com.google.android.gm.exchange7sauth_uid_for_type:com.google.android.gms.matchstick Eauth_uid_for_type:com.google/e    auth_uid_for_type:com.google.android.gm.pop3
+
+äÄˆLÔ˜\
+ä:              ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'æ:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'å:     ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'â: ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'á:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'à:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'Ô:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'À:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'¿:      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'¹
+
+ÜÄ‡J
+Ð“V
+Ü<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'æ <    ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'å< ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'â<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'á<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'à<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'Ô<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'À<      ucom.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'¿;      u       com.android.AccountManager.ACCOUNT_ACCESS_TOKEN_TYPE'¹
+
+
+
+
+ÀˆOÉW
+Û
+¢
+i
+0÷¾~<üÃŠQ
+Õ
+’
+O
+713action_account_add2020-02-13 20:19:15'áaccountsAE3ÿaction_called_account_remove2020-02-13 20:19:11'áaccountsAE3ÿaction_called_account_remove2020-02-09 15:09:01'áaccountsAE3ÿaction_called_account_remove2020-02-09 15:08:59'áaccounts713
+action_account_add2020-02-08 15:15:38'÷accounts713action_account_add2020-02-08 14:54:52'ÿaccounts713action_account_add2020-02-01 16:08:20'üaccounts713
+action_account_add2020-02-01 15:41:31'ðaccounts>?3ÿaction_called_account_add2020-02-01 15:38:19'ðaccounts@C3  action_authenticator_remove2020-01-31 17:17:09èaccounts>?3ÿaction_called_account_add2020-01-30 16:19:26'ðaccounts7
+13      action_account_add2020-01-30 08:56:36'ìaccounts713action_account_add2020-01-29 16:10:02(accounts713action_account_add2020-01-29 14:42:51(accounts7
+13action_account_add2020-01-29 13:51:02(accounts7       13action_account_add2020-01-29 13:43:16'þaccountsAE3ÿaction_called_account_remove2020-01-29 13:42:32'þaccounts713action_account_add2020-01-29 13:32:00(accounts713action_account_add2020-01-29 13:31:40'ùaccounts713action_account_add2020-01-29 13:31:04'úaccountsAE3ÿaction_called_account_remove2020-01-29 15:44:34'áaccountsAE3ÿaction_called_account_remove2020-01-29 15:44:30'áaccounts7      33action_set_password2020-01-29 15:41:08'accounts6    13action_account_add2020-01-29 15:41:07'accounts>?3ÿaction_called_account_add2020-01-29 15:39:30'¡accounts
+
+ªrZB*úâéÒº¢ŠÊ²š‚jR:"
+
+ò
+Ú
+Â
+ª32020-02-13 20:19:1532020-02-13 20:19:1132020-02-09 15:09:0132020-02-09 15:08:5932020-02-08 15:15:3832020-02-08 14:54:5232020-02-01 16:08:2032020-02-01 15:41:3132020-02-01 15:38:1932020-01-31 17:17:0932020-01-30 16:19:2632020-01-30 08:56:36
+32020-01-29 16:10:0232020-01-29 14:42:5132020-01-29 13:51:02
+32020-01-29 13:43:16    32020-01-29 13:42:3232020-01-29 13:32:0032020-01-29 13:31:4032020-01-29 13:31:0432020-01-29 15:44:3432020-01-29 15:44:3032020-01-29 15:41:083       2020-01-29 15:41:0732020-01-29 15:39:30
+ŒÝ­Œ    Acom.thinkyeah.galleryvault.    _com.google.android.apps.docs.editors.docs!   Ecom.google.android.apps.docs
+ß°      Acom.thinkyeah.galleryvault.    _com.google.android.apps.docs.editors.docs    E       com.google.android.apps.docs

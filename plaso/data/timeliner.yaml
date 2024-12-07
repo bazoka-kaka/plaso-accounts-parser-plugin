@@ -1,5 +1,7 @@
-- data_type: 'android:accounts:entry'
-  attribute_mappings:
-  - name: 'last_authenticated_time'
-    description: 'Last Authenticated Time'
-  place_holder_event: false
+---
+data_type: 'android:accounts:account'
+attribute_mappings:
+  - name: 'timestamp'
+    description: 'Last Password Entry Time'
+    place_holder_event: true
+---

@@ -1,8 +1,14 @@
+---
 type: 'conditional'
-data_type: 'android:accounts:entry'
+data_type: 'android:accounts:account'
 message:
-  - 'Account Name: {account_name}, Type: {account_type}, Last Authenticated: {last_authenticated_time}'
+  - 'Account Name: {account_name}'
+  - 'Account Type: {account_type}'
+  - 'Previous Name: {previous_name}'
+  - 'Last Password Entry Time: {timestamp}'
 short_message:
-  - 'Account: {account_name}, Type: {account_type}'
-short_source: 'ACCOUNTS'
-source: 'Android Accounts'
+  - 'Account Name: {account_name}'
+  - 'Account Type: {account_type}'
+short_source: 'SQLITE'
+source: 'Android accounts database'
+---
