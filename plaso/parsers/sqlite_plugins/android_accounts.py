@@ -76,13 +76,19 @@ class AndroidAccountsPlugin(interface.SQLitePlugin):
         """Parses an account row."""
         query_hash = hash(query)
 
-        event_data = AndroidAccountsEventData()
-        event_data.timestamp = self._GetTimestampRowValue(query_hash, row, 'last_password_entry_time_millis_epoch')
-        event_data.account_name = self._GetRowValue(query_hash, row, 'name')
-        event_data.account_type = self._GetRowValue(query_hash, row, 'type')
-        event_data.previous_name = self._GetRowValue(query_hash, row, 'previous_name')
+        try:
+            event_data = AndroidAccountsEventData()
+            event_data.timestamp = self._GetTimestampRowValue(query_hash, row, 'last_password_entry_time_millis_epoch')
+            event_data.account_name = self._GetRowValue(query_hash, row, 'name')
+            event_data.account_type = self._GetRowValue(query_hash, row, 'type')
+            event_data.previous_name = self._GetRowValue(query_hash, row, 'previous_name')
 
-        parser_mediator.ProduceEventData(event_data)
+            parser_mediator.ProduceEventData(event_data)
+        except Exception as e:
+            # Produces an extraction warning for any parsing error
+            parser_mediator.ProduceExtractionWarning(
+                f'Error parsing account row: {str(e)}'
+            )
 
 
 sqlite.SQLiteParser.RegisterPlugin(AndroidAccountsPlugin)
